@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 800 500"><defs><pattern id="hd" patternUnits="userSpaceOnUse" width="11" height="11" patternTransform="rotate(45)"><path d="M5.5 0V11" style="stroke:#2B2B29;stroke-width:1.6"></path></pattern></defs><rect width="800" height="500" fill="#EDEDEA"></rect><g style="fill:none;stroke:#2B2B29;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round">
+<path d="M150 300C260 250 420 170 600 110" style="stroke-dasharray:4 14;stroke-width:2.4"></path>
+<path d="M560 124L654 94C672 88 684 98 676 112C670 122 658 128 646 132L550 164Z" style="fill:#EDEDEA;stroke:#C8412F"></path>
+<path d="M590 120L560 70L582 64L626 108" style="fill:#EDEDEA;stroke:#C8412F"></path>
+<path d="M596 150L590 206L612 200L630 140" style="fill:#EDEDEA;stroke:#C8412F"></path>
+<rect x="300" y="300" width="150" height="140" rx="8" style="fill:#EDEDEA"></rect>
+<path d="M450 300L480 280V420L450 440Z" style="fill:url(#hd)"></path>
+<path d="M300 300L330 280H480L450 300Z" style="fill:#EDEDEA"></path>
+<path d="M345 290V250H405V290" style="stroke-width:2.6"></path>
+<path d="M340 340H410M340 380H410" style="stroke-width:1.6"></path>
+<circle cx="325" cy="450" r="8"></circle><circle cx="425" cy="450" r="8"></circle>
+<path d="M130 460H700"></path>
+</g></svg>

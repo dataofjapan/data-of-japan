@@ -318,5 +318,85 @@
     "legacyHost": "japan-payroll.visualizing.jp",
     "source": "https://github.com/visualizing-jp/japan-payroll.git",
     "commit": "a01a9905cea3e0a7d6ada4fc9afc2c63701be7ae"
+  },
+  {
+    "directory": "portal/foreigners",
+    "path": "/foreigners/",
+    "title": "日本にいる外国人は、どこから来たか — 公的統計",
+    "legacyHost": "japan-foreigners.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-foreigners.git",
+    "commit": "20b1a76c098133c4dc09d15279188bd0ec565e81"
+  },
+  {
+    "directory": "apps/foreigners/crime",
+    "path": "/foreigners/crime/",
+    "title": "日本で検挙された外国人は、どこから来たか",
+    "legacyHost": "japan-foreigners-crime.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-foreigners-crime.git",
+    "commit": "0bfd188ac9d7a678a622e7b169275cf4b43e8b80"
+  },
+  {
+    "directory": "apps/foreigners/spending",
+    "path": "/foreigners/spending/",
+    "title": "訪れた外国人は、いくら使ってきたか",
+    "legacyHost": "japan-foreigners-spending.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-foreigners-spending.git",
+    "commit": "7d137fc2a848df6b1bb9efdf8732ebba76d13dd3"
+  },
+  {
+    "directory": "apps/foreigners/status",
+    "path": "/foreigners/status/",
+    "title": "日本に住む外国人は、どんな在留資格でいるか",
+    "legacyHost": "japan-foreigners-status.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-foreigners-status.git",
+    "commit": "db14757530da6a2d2f92bc2c9b061a7b331f02b0"
+  },
+  {
+    "directory": "apps/foreigners/stays",
+    "path": "/foreigners/stays/",
+    "title": "訪れた外国人は、どこに泊まってきたか",
+    "legacyHost": "japan-foreigners-stays.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-foreigners-stays.git",
+    "commit": "00752db0935e0458aa91e3293c0d40e0ab79a258"
+  },
+  {
+    "directory": "apps/foreigners/visitors",
+    "path": "/foreigners/visitors/",
+    "title": "日本には、どれだけの外国人が訪れてきたか",
+    "legacyHost": "japan-foreigners-visitors.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-foreigners-visitors.git",
+    "commit": "1dba1b20d308ba8ef06b5a07a07b233d70466a6b"
+  },
+  {
+    "directory": "apps/foreigners/workers",
+    "path": "/foreigners/workers/",
+    "title": "日本で働く外国人は、どこから来たか",
+    "legacyHost": "japan-foreigners-workers.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-foreigners-workers.git",
+    "commit": "ac3d7332702f2e082a5fb1b92dd9a9afe22de753"
+  },
+  {
+    "directory": "portal/industry",
+    "path": "/industry/",
+    "title": "日本の産業は、どう動いてきたか — japan-industry",
+    "legacyHost": "japan-industry.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-industry.git",
+    "commit": "2a61c513ca558babe789920d8b66cf1c4f6bb067"
+  },
+  {
+    "directory": "apps/industry/energy",
+    "path": "/industry/energy/",
+    "title": "日本は何のエネルギーに頼ってきたか",
+    "legacyHost": "japan-industry-energy.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-industry-energy.git",
+    "commit": "e10949b9d5534d50eac063f16fcd8de88cb88c9d"
+  },
+  {
+    "directory": "apps/industry/energy-pref",
+    "path": "/industry/energy-pref/",
+    "title": "どの県が、何にエネルギーを使っているか",
+    "legacyHost": "japan-industry-energy-pref.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-industry-energy-pref.git",
+    "commit": "c1f66ebb0afe32ac452d8bb180d9c3b0768d05b1"
   }
 ]

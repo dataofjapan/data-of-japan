@@ -14,7 +14,7 @@ test('every migrated site has an exact host redirect to its own new path',()=>{
   assert.equal(matches[0].destination,`https://data-of-japan.org${site.path}:path`);
   assert.equal(matches[0].permanent,true);
  }
- assert.equal(hosts.size,40);
+ assert.equal(hosts.size,sites.length);
 });
 test('unmigrated visualizing.jp content is not redirected',()=>{
  for(const host of ['visualizing.jp','www.visualizing.jp','japan-data-death.visualizing.jp'])assert.ok(!config.redirects.some(r=>r.has?.some(c=>c.type==='host'&&c.value===host)));

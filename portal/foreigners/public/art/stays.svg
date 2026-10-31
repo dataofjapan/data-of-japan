@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 800 500"><defs><pattern id="hd" patternUnits="userSpaceOnUse" width="11" height="11" patternTransform="rotate(45)"><path d="M5.5 0V11" style="stroke:#2B2B29;stroke-width:1.6"></path></pattern></defs><rect width="800" height="500" fill="#EDEDEA"></rect><g style="fill:none;stroke:#2B2B29;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round">
+<path d="M480 120L530 90V410L480 440Z" style="fill:url(#hd)"></path>
+<path d="M300 120L350 90H530L480 120Z" style="fill:#EDEDEA"></path>
+<rect x="300" y="120" width="180" height="320" style="fill:#EDEDEA"></rect>
+<path d="M330 160H360V190H330ZM375 160H405V190H375ZM420 160H450V190H420Z" style="stroke-width:2.4"></path>
+<path d="M330 215H360V245H330ZM420 215H450V245H420Z" style="stroke-width:2.4"></path>
+<path d="M375 215H405V245H375Z" style="fill:#C8412F;stroke:#C8412F;stroke-width:2.4"></path>
+<path d="M330 270H360V300H330ZM375 270H405V300H375ZM420 270H450V300H420Z" style="stroke-width:2.4"></path>
+<path d="M330 325H360V355H330ZM375 325H405V355H375ZM420 325H450V355H420Z" style="stroke-width:2.4"></path>
+<path d="M370 440V390H410V440" style="stroke-width:2.6"></path>
+<path d="M130 440H700"></path>
+</g></svg>

@@ -456,6 +456,116 @@
       ],
       "destination": "https://data-of-japan.org/society/payroll/:path",
       "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-foreigners.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/foreigners/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-foreigners-crime.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/foreigners/crime/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-foreigners-spending.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/foreigners/spending/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-foreigners-status.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/foreigners/status/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-foreigners-stays.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/foreigners/stays/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-foreigners-visitors.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/foreigners/visitors/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-foreigners-workers.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/foreigners/workers/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-industry.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/industry/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-industry-energy.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/industry/energy/:path",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-industry-energy-pref.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/industry/energy-pref/:path",
+      "permanent": true
     }
   ]
 }

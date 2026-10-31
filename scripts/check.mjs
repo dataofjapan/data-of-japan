@@ -21,7 +21,7 @@ if(new Set(sites.map(s=>s.path)).size!==sites.length)throw Error('Duplicate site
 await walk(dist);
 for(const s of sites)await stat(new URL('.'+s.path+'index.html',dist));
 console.log(`Verified ${count} pages and their local assets/links.`);
-for (const dir of ['portal/society','portal/governors','portal/elections']) {
+for (const dir of ['portal/society','portal/governors','portal/elections','portal/foreigners','portal/industry']) {
  const catalog = await import(new URL(dir+'/src/catalog.ts',root));
  for(const items of Object.values(catalog)) {
   if(!Array.isArray(items))continue;
@@ -38,7 +38,7 @@ const elections = await readFile(new URL('politics/elections/index.html', dist),
 if (!elections.includes('type="module"') || !elections.includes('/politics/elections/assets/')) {
   throw Error('Election cards were replaced by a generated link list');
 }
-for (const [path, count] of [['', 2], ['politics/', 1], ['politics/elections/shugiin/', 4], ['politics/elections/sangiin/', 4]]) {
+for (const [path, count] of [['', 4], ['politics/', 1], ['politics/elections/shugiin/', 4], ['politics/elections/sangiin/', 4]]) {
   const html = await readFile(new URL(path + 'index.html', dist), 'utf8');
   const icons = [...html.matchAll(/<svg /g)].length;
   const descriptions = [...html.matchAll(/class="card-description"/g)].length;

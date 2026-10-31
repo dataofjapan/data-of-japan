@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 800 500"><defs><pattern id="hd" patternUnits="userSpaceOnUse" width="11" height="11" patternTransform="rotate(45)"><path d="M5.5 0V11" style="stroke:#2B2B29;stroke-width:1.6"></path></pattern></defs><rect width="800" height="500" fill="#EDEDEA"></rect><g style="fill:none;stroke:#2B2B29;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round">
+<path d="M440 220L480 196V420L440 440Z" style="fill:url(#hd)"></path>
+<path d="M270 220L310 196H480L440 220Z" style="fill:#EDEDEA"></path>
+<rect x="270" y="220" width="170" height="220" style="fill:#EDEDEA"></rect>
+<path d="M320 220V180C320 150 390 150 390 180V220" style="stroke-width:2.6"></path>
+<path d="M300 300H410" style="stroke-width:1.6"></path>
+<ellipse cx="560" cy="430" rx="54" ry="14" style="fill:#EDEDEA;stroke:#C8412F"></ellipse>
+<path d="M506 430V404M614 430V404" style="stroke:#C8412F"></path>
+<ellipse cx="560" cy="404" rx="54" ry="14" style="fill:#EDEDEA;stroke:#C8412F"></ellipse>
+<path d="M506 404V378M614 404V378" style="stroke:#C8412F"></path>
+<ellipse cx="560" cy="378" rx="54" ry="14" style="fill:#EDEDEA;stroke:#C8412F"></ellipse>
+<path d="M130 440H700"></path>
+</g></svg>
