@@ -23,8 +23,9 @@ npm run preview
 
 `sites.json` にアプリディレクトリ、公開URL、旧ホスト名、取り込み元とcommitを記録しています。
 `apps/politics/` が選挙可視化、`apps/society/` が社会・経済、`portal/` が一覧画面です。
-総合・政治・選挙・衆参の入口、共通ナビ、sitemapは `scripts/build.mjs` で生成します。
-`portal/elections` は旧表紙の参照用ソースとして取り込んでおり、公開表紙は生成したものです。
+総合・政治・衆参の入口、共通ナビ、sitemapは `scripts/build.mjs` で生成します。
+選挙一覧は `portal/elections` の元のカード表示を使用し、知事選挙への入口も含みます。
+生成する入口も同じアイコンとカタログの説明を使用します。
 社会統計の death は今回の3フォルダにソースがないため、既存外部サイトへのリンクを維持しています。
 
 ## Vercel

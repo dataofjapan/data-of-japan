@@ -33,3 +33,15 @@ for (const dir of ['portal/society','portal/governors','portal/elections']) {
  }
 }
 console.log('Verified catalog destinations and artwork.');
+// The original election landing page must survive the aggregate build.
+const elections = await readFile(new URL('politics/elections/index.html', dist), 'utf8');
+if (!elections.includes('type="module"') || !elections.includes('/politics/elections/assets/')) {
+  throw Error('Election cards were replaced by a generated link list');
+}
+for (const [path, count] of [['', 2], ['politics/', 1], ['politics/elections/shugiin/', 4], ['politics/elections/sangiin/', 4]]) {
+  const html = await readFile(new URL(path + 'index.html', dist), 'utf8');
+  const icons = [...html.matchAll(/<svg /g)].length;
+  const descriptions = [...html.matchAll(/class="card-description"/g)].length;
+  if (icons !== count || descriptions !== count) throw Error(`Missing entry icons or descriptions at /${path}`);
+}
+console.log('Verified entry icons, descriptions, and the original election landing page.');

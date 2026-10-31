@@ -1,20 +1,7 @@
-import {
-  ArrowRightLeft,
-  ChartColumn,
-  Percent,
-  Users,
-  type LucideIcon,
-} from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { CATALOG, CATEGORIES, type CatalogEntry } from "./catalog.ts";
 import { VISUALIZING_URL, VisualizingMark } from "./Brand.tsx";
-
-/** 院をまたいで同じ題材には同じ線アイコンを置く。 */
-const MARKS: Record<string, LucideIcon> = {
-  turnout: Percent,
-  timeseries: ChartColumn,
-  candidates: Users,
-  seats: ArrowRightLeft,
-};
+import { MARKS } from "./marks.ts";
 
 // 領域の番号は大字で振る。数字よりも静かに並ぶ。
 const CATEGORY_NUMERALS = ["壱", "弐", "参", "肆", "伍", "陸"];
@@ -38,7 +25,7 @@ export function App() {
                   {CATEGORY_NUMERALS[i]}
                 </span>
                 <span className="text-[20px] font-medium tracking-[0.3em] lg:text-[22px]">
-                  {cat.label}
+                  <a href={`/politics/elections/${cat.id}/`} className="hover:text-accent">{cat.label}</a>
                 </span>
                 <span className="h-px grow self-center bg-rule" aria-hidden />
               </h2>
@@ -55,7 +42,7 @@ export function App() {
 
         <footer className="flex flex-col gap-2 pt-6 pb-24 text-[11px] leading-loose tracking-[0.06em] text-muted">
           <p>
-            国政選挙の記録をもとにしたシリーズのハブです。各ページは独立したサイトです。
+            国政選挙・都道府県知事選挙の記録をもとにした可視化コンテンツの一覧です。
           </p>
           <p>
             出典: 総務省「衆議院議員総選挙・最高裁判所裁判官国民審査結果調」「参議院議員通常選挙結果調」ほか。
@@ -90,7 +77,7 @@ function SideTitle() {
         どう政治を選んできたか
       </h1>
       <p className="vertical pt-32 font-serif text-[15px] leading-[2] tracking-[0.18em] text-muted">
-        国政選挙の記録でたどる、長期の変化。
+        国政選挙と知事選挙の記録でたどる、長期の変化。
       </p>
       <a
         href={VISUALIZING_URL}
@@ -122,7 +109,7 @@ function MobileTitle() {
         選んできたか
       </h1>
       <p className="font-serif text-[14px] leading-loose tracking-[0.12em] text-muted">
-        国政選挙の記録でたどる、長期の変化。
+        国政選挙と知事選挙の記録でたどる、長期の変化。
       </p>
     </header>
   );
@@ -162,6 +149,7 @@ function ProjectCard({ entry }: { entry: CatalogEntry }) {
       >
         {entry.title}
       </p>
+      <p className="text-[13px] leading-loose text-muted">{entry.description}</p>
       <p className="flex flex-wrap gap-x-3 text-[11px] tracking-[0.04em] text-muted">
         <span>{entry.source}</span>
         {entry.period !== "—" && <span className="tnum">{entry.period}</span>}
