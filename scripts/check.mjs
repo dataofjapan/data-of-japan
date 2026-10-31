@@ -7,6 +7,7 @@ async function walk(dir) {
   if(entry.isDirectory()){await walk(url);continue;}
   if(entry.name!=='index.html')continue;
   count++;const html=await readFile(url,'utf8');
+  if ([...html.matchAll(/src="\/analytics\.js"/g)].length !== 1) throw Error(`Expected one shared analytics script in ${url.pathname}`);
   for(const [,href] of html.matchAll(/(?:href|src)="(\/[^"#?]*)(?:[?#][^"]*)?"/g)) {
    const file=new URL('.'+href,dist);
    const info=await stat(file).catch(()=>null);

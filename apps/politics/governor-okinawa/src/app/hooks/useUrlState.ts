@@ -1,5 +1,4 @@
 import { useEffect, useState, type Dispatch, type SetStateAction } from "react";
-import { schedulePageView } from "../analytics.ts";
 
 /** 既定値のときはキーごと落として URL を短く保つ。 */
 function write(key: string, value: string, fallback: string): void {
@@ -12,7 +11,6 @@ function write(key: string, value: string, fallback: string): void {
     "",
     query === "" ? window.location.pathname : `?${query}`,
   );
-  schedulePageView();
 }
 
 /**

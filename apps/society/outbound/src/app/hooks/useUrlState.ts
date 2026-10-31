@@ -1,5 +1,4 @@
 import { useEffect, useState, type Dispatch, type SetStateAction } from "react";
-import { schedulePageView } from "../analytics.ts";
 
 function write(key: string, value: string, fallback: string): void {
   const params = new URLSearchParams(window.location.search);
@@ -11,7 +10,6 @@ function write(key: string, value: string, fallback: string): void {
     "",
     query === "" ? window.location.pathname : `?${query}`,
   );
-  schedulePageView();
 }
 
 export function useUrlState<T extends string>(
