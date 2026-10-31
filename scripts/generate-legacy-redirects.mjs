@@ -8,7 +8,7 @@ for (const site of sites) {
   if (!site.legacyHost) continue;
   if (!/^[a-z0-9-]+\.visualizing\.jp$/.test(site.legacyHost) || hosts.has(site.legacyHost)) throw Error(`Invalid or duplicate legacy host: ${site.legacyHost}`);
   hosts.add(site.legacyHost);
-  current.push({ source: '/:path*', has: [{type:'host', value:site.legacyHost}], destination: `https://data-of-japan.org${site.path}:path*`, permanent:true });
+  current.push({ source: '/:path(.*)', has: [{type:'host', value:site.legacyHost}], destination: `https://data-of-japan.org${site.path}:path`, permanent:true });
 }
 config.redirects = current;
 await writeFile(configFile, JSON.stringify(config, null, 2)+'\n');

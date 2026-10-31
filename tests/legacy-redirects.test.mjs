@@ -10,8 +10,8 @@ test('every migrated site has an exact host redirect to its own new path',()=>{
   assert.ok(site.legacyHost);assert.ok(!hosts.has(site.legacyHost));hosts.add(site.legacyHost);
   const matches=config.redirects.filter(r=>r.has?.some(c=>c.type==='host'&&c.value===site.legacyHost));
   assert.equal(matches.length,1);
-  assert.equal(matches[0].source,'/:path*');
-  assert.equal(matches[0].destination,`https://data-of-japan.org${site.path}:path*`);
+  assert.equal(matches[0].source,'/:path(.*)');
+  assert.equal(matches[0].destination,`https://data-of-japan.org${site.path}:path`);
   assert.equal(matches[0].permanent,true);
  }
  assert.equal(hosts.size,40);
