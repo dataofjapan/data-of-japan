@@ -79,3 +79,5 @@ GitHub Actionsはビルド検証を行います。VercelのGit連携は独立し
 設定済みGA4: NotationLLCアカウント / Data of Japan / Data of Japan — Web。
 測定ID: `G-LH9TF7Y96W`（公開識別子）。本番環境変数に設定済みです。
 拡張計測はスクロール・離脱クリック・ファイルダウンロードを有効にし、履歴によるページビュー・サイト内検索・フォーム操作・動画計測は無効にしています。
+
+旧URLの移行先と運用手順は [移行対応表](docs/legacy-migration.md) を参照してください。

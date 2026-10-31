@@ -1,1 +1,461 @@
-{"$schema":"https://openapi.vercel.sh/vercel.json","framework":null,"installCommand":"npm run setup","buildCommand":"npm run build && npm run check","outputDirectory":"dist","trailingSlash":true,"redirects":[{"source":"/:path*","has":[{"type":"host","value":"www.data-of-japan.org"}],"destination":"https://data-of-japan.org/:path*","permanent":true}]}
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm run setup",
+  "buildCommand": "npm run build && npm run check",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.data-of-japan.org"
+        }
+      ],
+      "destination": "https://data-of-japan.org/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-election.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-sangiin-candidates.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/sangiin/candidates/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-sangiin-seats.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/sangiin/seats/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-sangiin-timeseries.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/sangiin/votes/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-sangiin-turnout.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/sangiin/turnout/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-shugiin-candidates.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/shugiin/candidates/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-shugiin-seats.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/shugiin/seats/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-shugiin-timeseries.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/shugiin/votes/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "election-shugiin-turnout.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/shugiin/turnout/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "governor-election.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/governors/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "governor-election-okinawa.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/politics/elections/governors/okinawa/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-births.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/births/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-commuting.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/commuting/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-crime.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/crime/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-disease.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/disease/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-education.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/education/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-employment.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/employment/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-environment.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/environment/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-food.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/food/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-foreign-residents.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/foreign-residents/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-households.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/households/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-housing.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/housing/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-juvenile.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/juvenile/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-marriage.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/marriage/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-migration.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/migration/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-outbound.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/outbound/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-overseas.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/overseas/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-prisons.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/prisons/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-prosecution.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/prosecution/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-registry.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/registry/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-schools.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/schools/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-spending.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/spending/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-timeuse.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/timeuse/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-traffic-accidents.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/traffic-accidents/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-waste.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/waste/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-salary.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/work-category/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-occupation.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/work-people/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-data-working-age.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/working-age/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "japan-payroll.visualizing.jp"
+        }
+      ],
+      "destination": "https://data-of-japan.org/society/payroll/:path*",
+      "permanent": true
+    }
+  ]
+}

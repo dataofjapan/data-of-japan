@@ -11,6 +11,8 @@
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
     "preview": "node scripts/preview.mjs",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "redirects:generate": "node scripts/generate-legacy-redirects.mjs",
+    "redirects:verify": "node scripts/verify-legacy.mjs"
   }
 }

@@ -171,7 +171,7 @@
     "directory": "apps/society/households",
     "path": "/society/households/",
     "title": "日本人はどう暮らしてきたか — 世帯・家族類型",
-    "legacyHost": "",
+    "legacyHost": "japan-data-households.visualizing.jp",
     "source": "https://github.com/visualizing-jp/japan-data-households.git",
     "commit": "05de56d9289fd6f6f32e993f672a3e5e95a79511"
   },
@@ -291,7 +291,7 @@
     "directory": "apps/society/work-category",
     "path": "/society/work-category/",
     "title": "業種で給与はどれだけ違うか — 民間給与実態統計調査 2014–2024",
-    "legacyHost": "",
+    "legacyHost": "japan-data-salary.visualizing.jp",
     "source": "https://github.com/visualizing-jp/japan-data-salary.git",
     "commit": "71d3a8ce8ef233c998c3d8d808b430595118292a"
   },
@@ -299,7 +299,7 @@
     "directory": "apps/society/work-people",
     "path": "/society/work-people/",
     "title": "日本人はどんな仕事をしてきたか — 職種別就業者",
-    "legacyHost": "",
+    "legacyHost": "japan-data-occupation.visualizing.jp",
     "source": "https://github.com/visualizing-jp/japan-data-occupation.git",
     "commit": "e1ebef7190cbfd9685165e87ede52858ead628a0"
   },
