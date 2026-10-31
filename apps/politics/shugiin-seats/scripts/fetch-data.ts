@@ -1,38 +1,27 @@
-/**
- * 兄弟サイトの配信データを GitHub（main）から data/sibling/ に写す。毎回取り直して上書きする。
- *
- *   npm run fetch
- */
-
-import { mkdir, writeFile } from "node:fs/promises";
+/** 同じリポジトリ内の得票・候補者データを data/sibling/ に同期する。 */
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 export const SIBLING_DIR = resolve(import.meta.dirname, "../data/sibling");
-
-/** 兄弟サイト → リポジトリと、写す配信データ（public/data/*.json）。 */
 export const SIBLINGS = {
-  timeseries: { repo: "visualizing-jp/election-shugiin-timeseries", files: ["era", "palette"] },
-  candidates: { repo: "visualizing-jp/shugiin-candidates", files: ["national"] },
-} as const;
-
+  timeseries: { directory: "shugiin-votes", files: ["era", "palette"] },
+  candidates: { directory: "shugiin-candidates", files: ["national"] },
+} satisfies Record<string, { directory: string; files: string[] }>;
 export type Sibling = keyof typeof SIBLINGS;
-
 export function siblingPath(site: Sibling, file: string): string {
   return resolve(SIBLING_DIR, site, `${file}.json`);
 }
-
 async function main(): Promise<void> {
-  for (const [site, { repo, files }] of Object.entries(SIBLINGS)) {
+  for (const site of ["timeseries", "candidates"] satisfies Sibling[]) {
+    const { directory, files } = SIBLINGS[site];
     for (const file of files) {
-      const url = `https://raw.githubusercontent.com/${repo}/main/public/data/${file}.json`;
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`${res.status} ${url}`);
-      const path = siblingPath(site as Sibling, file);
+      const source = resolve(import.meta.dirname, "../../", directory, "public/data", `${file}.json`);
+      const content = await readFile(source, "utf8");
+      const path = siblingPath(site, file);
       await mkdir(resolve(path, ".."), { recursive: true });
-      await writeFile(path, await res.text());
+      await writeFile(path, content);
       console.log(`  ${site}/${file}.json`);
     }
   }
 }
-
 if (import.meta.main) await main();
