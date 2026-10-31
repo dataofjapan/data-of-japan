@@ -50,3 +50,14 @@
 | japan-data-occupation.visualizing.jp | /society/work-people/ | visualizing-jp/japan-data-occupation |
 | japan-data-working-age.visualizing.jp | /society/working-age/ | visualizing-jp/japan-data-working-age |
 | japan-payroll.visualizing.jp | /society/payroll/ | visualizing-jp/japan-payroll |
+
+## 実施結果（2026-10-31）
+
+- 対象40件だけCNAMEをVercelへ変更し、それ以外のDNSレコードが変わっていないことを差分で確認しました。
+- 権威DNS40件、TLS証明書、ルート・index.html・末尾スラッシュ付き下位パスの計120ケースの308転送、移行先40ページのHTTP 200を確認しました。TLS検証ではDNSキャッシュを除外するため、正しいHost/SNIを保ってVercelのIPへ接続しました。
+- 旧40リポジトリは移行先の説明・Homepageを設定してアーカイブ済みです。GitHubから再取得し、ブランチと先頭コミットを保持していることを確認しました。
+- 作業時点の通常DNSでは25件が転送済み、15件は旧DNSキャッシュが残っていました。TTLは30分です。キャッシュが更新されるまでは旧ページが表示される場合があります。
+
+検証結果と旧リポジトリのコミットは [legacy-migration-audit.json](legacy-migration-audit.json) に記録しています。
+
+VercelのtrailingSlash設定下で `/:path*` が末尾スラッシュ付きURLに一致しなかったため、旧ホストの転送は `/:path(.*)` を使用しています。

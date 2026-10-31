@@ -1,0 +1,1655 @@
+{
+  "verifiedAt": "2026-10-31T12:28:17.696930+00:00",
+  "dns": {
+    "changedRecords": 40,
+    "otherRecordsPreserved": true,
+    "target": "937e216782f7a48c.vercel-dns-016.com."
+  },
+  "destinationPagesReturning200": 40,
+  "redirectChecks": [
+    {
+      "host": "japan-election.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-election.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-election.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-candidates.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/candidates/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-candidates.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/candidates/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-candidates.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/candidates/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-seats.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/seats/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-seats.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/seats/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-seats.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/seats/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-timeseries.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/votes/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-timeseries.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/votes/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-timeseries.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/votes/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-turnout.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/turnout/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-turnout.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/turnout/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-sangiin-turnout.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/turnout/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-candidates.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/candidates/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-candidates.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/candidates/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-candidates.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/candidates/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-seats.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/seats/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-seats.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/seats/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-seats.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/seats/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-timeseries.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/votes/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-timeseries.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/votes/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-timeseries.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/votes/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-turnout.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/turnout/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-turnout.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/turnout/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "election-shugiin-turnout.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/turnout/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "governor-election.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/governors/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "governor-election.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/governors/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "governor-election.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/governors/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "governor-election-okinawa.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/governors/okinawa/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "governor-election-okinawa.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/governors/okinawa/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "governor-election-okinawa.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/politics/elections/governors/okinawa/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-births.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/births/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-births.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/births/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-births.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/births/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-commuting.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/commuting/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-commuting.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/commuting/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-commuting.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/commuting/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-crime.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/crime/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-crime.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/crime/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-crime.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/crime/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-disease.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/disease/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-disease.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/disease/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-disease.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/disease/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-education.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/education/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-education.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/education/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-education.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/education/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-employment.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/employment/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-employment.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/employment/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-employment.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/employment/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-environment.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/environment/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-environment.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/environment/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-environment.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/environment/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-food.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/food/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-food.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/food/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-food.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/food/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-foreign-residents.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/foreign-residents/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-foreign-residents.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/foreign-residents/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-foreign-residents.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/foreign-residents/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-households.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/households/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-households.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/households/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-households.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/households/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-housing.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/housing/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-housing.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/housing/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-housing.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/housing/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-juvenile.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/juvenile/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-juvenile.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/juvenile/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-juvenile.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/juvenile/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-marriage.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/marriage/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-marriage.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/marriage/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-marriage.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/marriage/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-migration.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/migration/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-migration.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/migration/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-migration.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/migration/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-outbound.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/outbound/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-outbound.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/outbound/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-outbound.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/outbound/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-overseas.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/overseas/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-overseas.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/overseas/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-overseas.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/overseas/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-prisons.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/prisons/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-prisons.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/prisons/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-prisons.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/prisons/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-prosecution.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/prosecution/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-prosecution.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/prosecution/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-prosecution.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/prosecution/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-registry.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/registry/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-registry.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/registry/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-registry.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/registry/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-schools.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/schools/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-schools.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/schools/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-schools.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/schools/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-spending.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/spending/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-spending.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/spending/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-spending.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/spending/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-timeuse.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/timeuse/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-timeuse.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/timeuse/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-timeuse.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/timeuse/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-traffic-accidents.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/traffic-accidents/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-traffic-accidents.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/traffic-accidents/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-traffic-accidents.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/traffic-accidents/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-waste.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/waste/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-waste.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/waste/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-waste.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/waste/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-salary.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/work-category/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-salary.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/work-category/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-salary.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/work-category/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-occupation.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/work-people/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-occupation.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/work-people/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-occupation.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/work-people/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-working-age.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/working-age/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-working-age.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/working-age/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-data-working-age.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/working-age/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-payroll.visualizing.jp",
+      "suffix": "",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/payroll/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-payroll.visualizing.jp",
+      "suffix": "index.html",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/payroll/index.html?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    },
+    {
+      "host": "japan-payroll.visualizing.jp",
+      "suffix": "nested/path/",
+      "status": 308,
+      "location": "https://data-of-japan.org/society/payroll/nested/path/?view=era",
+      "dns": "937e216782f7a48c.vercel-dns-016.com.",
+      "verification": "authoritative DNS + TLS-verified direct Vercel connection",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "archivedRepositories": [
+    {
+      "repo": "visualizing-jp/japan-election",
+      "archived": true,
+      "head": "11558cde82567b6a4fbad02c62fb07268e4705ec",
+      "homepage": "https://data-of-japan.org/politics/elections/"
+    },
+    {
+      "repo": "visualizing-jp/sangiin-candidates",
+      "archived": true,
+      "head": "cb785f89e67d4e7319b135f7d2becc0052b41baa",
+      "homepage": "https://data-of-japan.org/politics/elections/sangiin/candidates/"
+    },
+    {
+      "repo": "visualizing-jp/sangiin-seats",
+      "archived": true,
+      "head": "6a391eb3c870255ea153956486837bdeab747b86",
+      "homepage": "https://data-of-japan.org/politics/elections/sangiin/seats/"
+    },
+    {
+      "repo": "visualizing-jp/election-sangiin-timeseries",
+      "archived": true,
+      "head": "e190d1c6f6b990f79d07207631e584aa376ededb",
+      "homepage": "https://data-of-japan.org/politics/elections/sangiin/votes/"
+    },
+    {
+      "repo": "visualizing-jp/sangiin-turnout",
+      "archived": true,
+      "head": "1bf5c786792f3c9a2d4dc79abe2751cdb3cbe867",
+      "homepage": "https://data-of-japan.org/politics/elections/sangiin/turnout/"
+    },
+    {
+      "repo": "visualizing-jp/shugiin-candidates",
+      "archived": true,
+      "head": "c12a3e2def1c568790e99dcbea4a90c82d5fafbc",
+      "homepage": "https://data-of-japan.org/politics/elections/shugiin/candidates/"
+    },
+    {
+      "repo": "visualizing-jp/shugiin-seats",
+      "archived": true,
+      "head": "1833b34236fe6affe5d48725fa7e59f879c3fa69",
+      "homepage": "https://data-of-japan.org/politics/elections/shugiin/seats/"
+    },
+    {
+      "repo": "visualizing-jp/election-shugiin-timeseries",
+      "archived": true,
+      "head": "8d7d9164b45470bc382e002d68c5d2a9397ac58f",
+      "homepage": "https://data-of-japan.org/politics/elections/shugiin/votes/"
+    },
+    {
+      "repo": "visualizing-jp/shugiin-turnout",
+      "archived": true,
+      "head": "37db0e00f3333baffc56403db285e982134e54c8",
+      "homepage": "https://data-of-japan.org/politics/elections/shugiin/turnout/"
+    },
+    {
+      "repo": "visualizing-jp/governor-election",
+      "archived": true,
+      "head": "9f2d08f1a7b0327f612e3c98b23e3f347aa0d22a",
+      "homepage": "https://data-of-japan.org/politics/elections/governors/"
+    },
+    {
+      "repo": "visualizing-jp/governor-election-okinawa",
+      "archived": true,
+      "head": "c16aca646b80628cda53dcdcb3f7461d6318e79a",
+      "homepage": "https://data-of-japan.org/politics/elections/governors/okinawa/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data",
+      "archived": true,
+      "head": "9ad30bee92b2e0ca49358b40188e948eb7f07aa6",
+      "homepage": "https://data-of-japan.org/society/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-births",
+      "archived": true,
+      "head": "57130bae8445371e1ed5530ae78d1618ee84f043",
+      "homepage": "https://data-of-japan.org/society/births/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-commuting",
+      "archived": true,
+      "head": "2037aa8da0b08612a18805eaa09d78bddc7e7194",
+      "homepage": "https://data-of-japan.org/society/commuting/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-crime",
+      "archived": true,
+      "head": "1c9385cf6e1177369fca969516abcfca243435c8",
+      "homepage": "https://data-of-japan.org/society/crime/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-disease",
+      "archived": true,
+      "head": "b0f7819058da8d3dd49847dad5bb17b25252a17c",
+      "homepage": "https://data-of-japan.org/society/disease/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-education",
+      "archived": true,
+      "head": "3b2ea05bf874b799dfcce433cca06524a6cf7e9e",
+      "homepage": "https://data-of-japan.org/society/education/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-employment",
+      "archived": true,
+      "head": "c463c3af6d3f145752c88643a5fff4206c4010c8",
+      "homepage": "https://data-of-japan.org/society/employment/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-environment",
+      "archived": true,
+      "head": "5adb3188cbc2d87aaf2d3c374253e998e4d3abb2",
+      "homepage": "https://data-of-japan.org/society/environment/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-food",
+      "archived": true,
+      "head": "73e88820a1dc7b3aec456132db245187f81705a6",
+      "homepage": "https://data-of-japan.org/society/food/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-foreign-residents",
+      "archived": true,
+      "head": "4311c2bb0a85159005a70c5d33d82ae794504dd6",
+      "homepage": "https://data-of-japan.org/society/foreign-residents/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-households",
+      "archived": true,
+      "head": "05de56d9289fd6f6f32e993f672a3e5e95a79511",
+      "homepage": "https://data-of-japan.org/society/households/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-housing",
+      "archived": true,
+      "head": "3d0542ab97441aacf6132c2df7c609635bc24042",
+      "homepage": "https://data-of-japan.org/society/housing/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-juvenile",
+      "archived": true,
+      "head": "34bc1ef62befeffdcd6e9a7c770250c1556df4fc",
+      "homepage": "https://data-of-japan.org/society/juvenile/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-marriage",
+      "archived": true,
+      "head": "93ec47dff1dde7bc8ae2cf93cfaeab1bccd30c64",
+      "homepage": "https://data-of-japan.org/society/marriage/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-migration",
+      "archived": true,
+      "head": "8a4a239c4a74027965eac7d3413c87320456939e",
+      "homepage": "https://data-of-japan.org/society/migration/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-outbound",
+      "archived": true,
+      "head": "e9597f14bba2be81664e086cbd50dad1c2b1ca54",
+      "homepage": "https://data-of-japan.org/society/outbound/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-overseas",
+      "archived": true,
+      "head": "b218162e03b0cb27e9a1bbcf20f5ef2b55780d28",
+      "homepage": "https://data-of-japan.org/society/overseas/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-prisons",
+      "archived": true,
+      "head": "0d020ffd82627c76392d4b6dac1ae23961aab1a6",
+      "homepage": "https://data-of-japan.org/society/prisons/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-prosecution",
+      "archived": true,
+      "head": "a8b68e4d94ea6d417a51b723587bd34ca4fc27c5",
+      "homepage": "https://data-of-japan.org/society/prosecution/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-registry",
+      "archived": true,
+      "head": "4c904a7ed8dade3a3188581eec0233fa0c549446",
+      "homepage": "https://data-of-japan.org/society/registry/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-schools",
+      "archived": true,
+      "head": "2eb7694d7959a08e13a70d3ca92d7ece90030e96",
+      "homepage": "https://data-of-japan.org/society/schools/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-spending",
+      "archived": true,
+      "head": "70bdaed17af0f0d14f9f83f5cb75aa06a2e23e7a",
+      "homepage": "https://data-of-japan.org/society/spending/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-timeuse",
+      "archived": true,
+      "head": "568b07fd359bb462db0f15064f87be067c4ff2ae",
+      "homepage": "https://data-of-japan.org/society/timeuse/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-traffic-accidents",
+      "archived": true,
+      "head": "e49350bb99fef36c11381b2e84df140434c91ff0",
+      "homepage": "https://data-of-japan.org/society/traffic-accidents/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-waste",
+      "archived": true,
+      "head": "a83a3905467a9ba99c1e55593f0a1cb64d5b8895",
+      "homepage": "https://data-of-japan.org/society/waste/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-salary",
+      "archived": true,
+      "head": "71d3a8ce8ef233c998c3d8d808b430595118292a",
+      "homepage": "https://data-of-japan.org/society/work-category/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-occupation",
+      "archived": true,
+      "head": "e1ebef7190cbfd9685165e87ede52858ead628a0",
+      "homepage": "https://data-of-japan.org/society/work-people/"
+    },
+    {
+      "repo": "visualizing-jp/japan-data-working-age",
+      "archived": true,
+      "head": "db284f90812e0dc950595cbacdf5439c8643aa04",
+      "homepage": "https://data-of-japan.org/society/working-age/"
+    },
+    {
+      "repo": "visualizing-jp/japan-payroll",
+      "archived": true,
+      "head": "6aff68fa59a77206d40f80922ccf0182d4137f9a",
+      "homepage": "https://data-of-japan.org/society/payroll/"
+    }
+  ],
+  "publicResolverSnapshot": [
+    {
+      "host": "japan-election.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/?view=era"
+    },
+    {
+      "host": "election-sangiin-candidates.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/candidates/?view=era"
+    },
+    {
+      "host": "election-sangiin-seats.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/seats/?view=era"
+    },
+    {
+      "host": "election-sangiin-timeseries.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/votes/?view=era"
+    },
+    {
+      "host": "election-sangiin-turnout.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/sangiin/turnout/?view=era"
+    },
+    {
+      "host": "election-shugiin-candidates.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/candidates/?view=era"
+    },
+    {
+      "host": "election-shugiin-seats.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/seats/?view=era"
+    },
+    {
+      "host": "election-shugiin-timeseries.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/votes/?view=era"
+    },
+    {
+      "host": "election-shugiin-turnout.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/shugiin/turnout/?view=era"
+    },
+    {
+      "host": "governor-election.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/governors/?view=era"
+    },
+    {
+      "host": "governor-election-okinawa.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/politics/elections/governors/okinawa/?view=era"
+    },
+    {
+      "host": "japan-data.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/?view=era"
+    },
+    {
+      "host": "japan-data-births.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/births/?view=era"
+    },
+    {
+      "host": "japan-data-commuting.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/commuting/?view=era"
+    },
+    {
+      "host": "japan-data-crime.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/crime/?view=era"
+    },
+    {
+      "host": "japan-data-disease.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/disease/?view=era"
+    },
+    {
+      "host": "japan-data-education.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/education/?view=era"
+    },
+    {
+      "host": "japan-data-employment.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/employment/?view=era"
+    },
+    {
+      "host": "japan-data-environment.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/environment/?view=era"
+    },
+    {
+      "host": "japan-data-food.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/food/?view=era"
+    },
+    {
+      "host": "japan-data-foreign-residents.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/foreign-residents/?view=era"
+    },
+    {
+      "host": "japan-data-households.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/households/?view=era"
+    },
+    {
+      "host": "japan-data-housing.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/housing/?view=era"
+    },
+    {
+      "host": "japan-data-juvenile.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/juvenile/?view=era"
+    },
+    {
+      "host": "japan-data-marriage.visualizing.jp",
+      "ok": true,
+      "location": "https://data-of-japan.org/society/marriage/?view=era"
+    },
+    {
+      "host": "japan-data-migration.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-outbound.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-overseas.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-prisons.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-prosecution.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-registry.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-schools.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-spending.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-timeuse.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-traffic-accidents.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-waste.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-salary.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-occupation.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-data-working-age.visualizing.jp",
+      "ok": false,
+      "location": null
+    },
+    {
+      "host": "japan-payroll.visualizing.jp",
+      "ok": false,
+      "location": null
+    }
+  ]
+}
