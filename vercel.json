@@ -1,0 +1,1 @@
+{"$schema":"https://openapi.vercel.sh/vercel.json","framework":null,"installCommand":"npm run setup","buildCommand":"npm run build && npm run check","outputDirectory":"dist","trailingSlash":true,"redirects":[{"source":"/:path*","has":[{"type":"host","value":"www.data-of-japan.org"}],"destination":"https://data-of-japan.org/:path*","permanent":true}]}

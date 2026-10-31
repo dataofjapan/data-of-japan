@@ -1,0 +1,35 @@
+import { mkdir, rm, cp, readFile, writeFile } from 'node:fs/promises';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+import { root, sites, nav, style, escape } from './sites.mjs';
+const dist = new URL('dist/', root);
+await rm(dist, { recursive: true, force: true });
+await mkdir(dist, { recursive: true });
+for (const site of sites) {
+  console.log(`Building ${site.path}`);
+  const cwd = new URL(site.directory + '/', root);
+  const result = spawnSync('npm', ['run', 'build', '--', '--base', site.path, '--configLoader', 'runner'], { cwd: fileURLToPath(cwd), stdio: 'inherit' });
+  if (result.status !== 0) process.exit(result.status ?? 1);
+  const target = new URL('.' + site.path, dist);
+  await mkdir(target, { recursive: true });
+  await cp(new URL('dist/', cwd), target, { recursive: true });
+  const index = new URL('index.html', target);
+  let html = await readFile(index, 'utf8');
+  html = html.replace('</head>', `<style>${style}</style></head>`).replace(/<body([^>]*)>/, `<body$1>${nav}`);
+  await writeFile(index, html);
+}
+function page(path, title, description, items) {
+  return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} — Data of Japan</title><meta name="description" content="${escape(description)}"><link rel="canonical" href="https://data-of-japan.org${path}"><style>${style}body{margin:0;background:#faf8f3;color:#242b35;font-family:system-ui}main{max-width:1000px;margin:auto;padding:64px 24px}h1{font-family:serif;font-size:clamp(32px,6vw,60px)}p{line-height:1.9}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px}li a{display:block;padding:24px;border:1px solid #ccc5b8;color:inherit;text-decoration:none;line-height:1.8}li a:hover,li a:focus-visible{background:#eee9dd}footer{margin-top:64px;border-top:1px solid #ccc5b8;padding-top:24px}</style></head><body>${nav}<main><p>DATA OF JAPAN</p><h1>${escape(title)}</h1><p>${escape(description)}</p><ul>${items.map(i=>`<li><a href="${i.path}">${escape(i.title)}</a></li>`).join('')}</ul><footer><a href="https://github.com/dataofjapan/data-of-japan">GitHub · データと実装</a></footer></main></body></html>`;
+}
+const portals = [
+ {path:'/',title:'データで見る日本',description:'政治、暮らし、社会・経済の変化を、データから読み解く。',items:[{path:'/politics/',title:'政治 — 選挙から見る日本'},{path:'/society/',title:'社会・経済 — 暮らしの変化をたどる'}]},
+ {path:'/politics/',title:'政治',description:'国政選挙と知事選挙の記録から、日本の政治を読み解く。',items:[{path:'/politics/elections/',title:'選挙 — 衆議院・参議院・都道府県知事'}]},
+ {path:'/politics/elections/',title:'選挙',description:'誰が立候補し、どれだけの人が投票し、その票がどう議席につながったか。',items:[{path:'/politics/elections/shugiin/',title:'衆議院選挙'},{path:'/politics/elections/sangiin/',title:'参議院選挙'},{path:'/politics/elections/governors/',title:'都道府県知事選挙'}]},
+ ...['shugiin','sangiin'].map(chamber=>({path:`/politics/elections/${chamber}/`,title:chamber==='shugiin'?'衆議院選挙':'参議院選挙',description:'得票・候補者・投票率・議席の変化を探索する。',items:sites.filter(s=>s.path.startsWith(`/politics/elections/${chamber}/`))}))
+];
+for (const p of portals) { const dir=new URL('.'+p.path,dist); await mkdir(dir,{recursive:true}); await writeFile(new URL('index.html',dir),page(p.path,p.title,p.description,p.items)); }
+await writeFile(new URL('404.html',dist),page('/404.html','ページが見つかりません','一覧からコンテンツをお探しください。',portals[0].items));
+const paths=[...new Set([...sites,...portals].map(s=>s.path))];
+await writeFile(new URL('sitemap.xml',dist),'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+paths.map(p=>`<url><loc>https://data-of-japan.org${p}</loc></url>`).join('')+'</urlset>');
+await writeFile(new URL('robots.txt',dist),'User-agent: *\nAllow: /\nSitemap: https://data-of-japan.org/sitemap.xml\n');
+console.log(`Built ${paths.length} routes.`);

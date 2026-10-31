@@ -1,0 +1,322 @@
+[
+  {
+    "directory": "portal/elections",
+    "path": "/politics/elections/",
+    "title": "日本人は、どう政治を選んできたか — 国政選挙",
+    "legacyHost": "japan-election.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-election.git",
+    "commit": "11558cde82567b6a4fbad02c62fb07268e4705ec"
+  },
+  {
+    "directory": "apps/politics/sangiin-candidates",
+    "path": "/politics/elections/sangiin/candidates/",
+    "title": "参議院選挙で、誰が立候補し、誰が当選したか",
+    "legacyHost": "election-sangiin-candidates.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/sangiin-candidates.git",
+    "commit": "cb785f89e67d4e7319b135f7d2becc0052b41baa"
+  },
+  {
+    "directory": "apps/politics/sangiin-seats",
+    "path": "/politics/elections/sangiin/seats/",
+    "title": "参議院選挙で、得た票はどれだけ議席になったか",
+    "legacyHost": "election-sangiin-seats.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/sangiin-seats.git",
+    "commit": "6a391eb3c870255ea153956486837bdeab747b86"
+  },
+  {
+    "directory": "apps/politics/sangiin-votes",
+    "path": "/politics/elections/sangiin/votes/",
+    "title": "参議院選挙で、どの党がどれだけ票を得てきたか",
+    "legacyHost": "election-sangiin-timeseries.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/election-sangiin-timeseries.git",
+    "commit": "e190d1c6f6b990f79d07207631e584aa376ededb"
+  },
+  {
+    "directory": "apps/politics/sangiin-turnout",
+    "path": "/politics/elections/sangiin/turnout/",
+    "title": "参議院選挙で、どれだけの人が投票したか",
+    "legacyHost": "election-sangiin-turnout.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/sangiin-turnout.git",
+    "commit": "1bf5c786792f3c9a2d4dc79abe2751cdb3cbe867"
+  },
+  {
+    "directory": "apps/politics/shugiin-candidates",
+    "path": "/politics/elections/shugiin/candidates/",
+    "title": "衆議院選挙で、誰が立候補し、誰が当選したか",
+    "legacyHost": "election-shugiin-candidates.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/shugiin-candidates.git",
+    "commit": "c12a3e2def1c568790e99dcbea4a90c82d5fafbc"
+  },
+  {
+    "directory": "apps/politics/shugiin-seats",
+    "path": "/politics/elections/shugiin/seats/",
+    "title": "衆議院選挙で、得た票はどれだけ議席になったか",
+    "legacyHost": "election-shugiin-seats.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/shugiin-seats.git",
+    "commit": "1833b34236fe6affe5d48725fa7e59f879c3fa69"
+  },
+  {
+    "directory": "apps/politics/shugiin-votes",
+    "path": "/politics/elections/shugiin/votes/",
+    "title": "衆議院選挙で、どの党がどれだけ票を得てきたか",
+    "legacyHost": "election-shugiin-timeseries.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/election-shugiin-timeseries.git",
+    "commit": "8d7d9164b45470bc382e002d68c5d2a9397ac58f"
+  },
+  {
+    "directory": "apps/politics/shugiin-turnout",
+    "path": "/politics/elections/shugiin/turnout/",
+    "title": "衆議院選挙で、どれだけの人が投票したか",
+    "legacyHost": "election-shugiin-turnout.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/shugiin-turnout.git",
+    "commit": "37db0e00f3333baffc56403db285e982134e54c8"
+  },
+  {
+    "directory": "portal/governors",
+    "path": "/politics/elections/governors/",
+    "title": "都道府県知事選挙の記録",
+    "legacyHost": "governor-election.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/governor-election.git",
+    "commit": "9f2d08f1a7b0327f612e3c98b23e3f347aa0d22a"
+  },
+  {
+    "directory": "apps/politics/governor-okinawa",
+    "path": "/politics/elections/governors/okinawa/",
+    "title": "沖縄県知事選挙で、誰がどれだけ票を得てきたか",
+    "legacyHost": "governor-election-okinawa.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/governor-election-okinawa.git",
+    "commit": "c16aca646b80628cda53dcdcb3f7461d6318e79a"
+  },
+  {
+    "directory": "portal/society",
+    "path": "/society/",
+    "title": "日本人は、どう生きてきたか — japan-data",
+    "legacyHost": "japan-data.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data.git",
+    "commit": "9ad30bee92b2e0ca49358b40188e948eb7f07aa6"
+  },
+  {
+    "directory": "apps/society/births",
+    "path": "/society/births/",
+    "title": "日本人はどれだけ子どもを産んできたか",
+    "legacyHost": "japan-data-births.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-births.git",
+    "commit": "57130bae8445371e1ed5530ae78d1618ee84f043"
+  },
+  {
+    "directory": "apps/society/commuting",
+    "path": "/society/commuting/",
+    "title": "日本人はどう通勤・通学してきたか",
+    "legacyHost": "japan-data-commuting.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-commuting.git",
+    "commit": "2037aa8da0b08612a18805eaa09d78bddc7e7194"
+  },
+  {
+    "directory": "apps/society/crime",
+    "path": "/society/crime/",
+    "title": "日本ではどんな犯罪が起きてきたか",
+    "legacyHost": "japan-data-crime.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-crime.git",
+    "commit": "1c9385cf6e1177369fca969516abcfca243435c8"
+  },
+  {
+    "directory": "apps/society/disease",
+    "path": "/society/disease/",
+    "title": "日本人はどんな病気で病院にかかってきたか",
+    "legacyHost": "japan-data-disease.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-disease.git",
+    "commit": "b0f7819058da8d3dd49847dad5bb17b25252a17c"
+  },
+  {
+    "directory": "apps/society/education",
+    "path": "/society/education/",
+    "title": "日本人はどこまで学ぶようになったか",
+    "legacyHost": "japan-data-education.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-education.git",
+    "commit": "3b2ea05bf874b799dfcce433cca06524a6cf7e9e"
+  },
+  {
+    "directory": "apps/society/employment",
+    "path": "/society/employment/",
+    "title": "日本人はどんな働き方をしてきたか",
+    "legacyHost": "japan-data-employment.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-employment.git",
+    "commit": "c463c3af6d3f145752c88643a5fff4206c4010c8"
+  },
+  {
+    "directory": "apps/society/environment",
+    "path": "/society/environment/",
+    "title": "日本では空気と水はどれだけきれいになったか",
+    "legacyHost": "japan-data-environment.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-environment.git",
+    "commit": "5adb3188cbc2d87aaf2d3c374253e998e4d3abb2"
+  },
+  {
+    "directory": "apps/society/food",
+    "path": "/society/food/",
+    "title": "日本人は何を食べてきたか",
+    "legacyHost": "japan-data-food.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-food.git",
+    "commit": "73e88820a1dc7b3aec456132db245187f81705a6"
+  },
+  {
+    "directory": "apps/society/foreign-residents",
+    "path": "/society/foreign-residents/",
+    "title": "日本の外国人住民はどこにいるか — 住民基本台帳",
+    "legacyHost": "japan-data-foreign-residents.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-foreign-residents.git",
+    "commit": "4311c2bb0a85159005a70c5d33d82ae794504dd6"
+  },
+  {
+    "directory": "apps/society/households",
+    "path": "/society/households/",
+    "title": "日本人はどう暮らしてきたか — 世帯・家族類型",
+    "legacyHost": "",
+    "source": "https://github.com/visualizing-jp/japan-data-households.git",
+    "commit": "05de56d9289fd6f6f32e993f672a3e5e95a79511"
+  },
+  {
+    "directory": "apps/society/housing",
+    "path": "/society/housing/",
+    "title": "日本人はどんな家に住んできたか — 住宅ストック",
+    "legacyHost": "japan-data-housing.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-housing.git",
+    "commit": "3d0542ab97441aacf6132c2df7c609635bc24042"
+  },
+  {
+    "directory": "apps/society/juvenile",
+    "path": "/society/juvenile/",
+    "title": "日本では非行少年をどう処遇してきたか",
+    "legacyHost": "japan-data-juvenile.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-juvenile.git",
+    "commit": "34bc1ef62befeffdcd6e9a7c770250c1556df4fc"
+  },
+  {
+    "directory": "apps/society/marriage",
+    "path": "/society/marriage/",
+    "title": "日本人はいつ結婚し、別れてきたか",
+    "legacyHost": "japan-data-marriage.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-marriage.git",
+    "commit": "93ec47dff1dde7bc8ae2cf93cfaeab1bccd30c64"
+  },
+  {
+    "directory": "apps/society/migration",
+    "path": "/society/migration/",
+    "title": "日本人はどこへ移り住んできたか",
+    "legacyHost": "japan-data-migration.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-migration.git",
+    "commit": "8a4a239c4a74027965eac7d3413c87320456939e"
+  },
+  {
+    "directory": "apps/society/outbound",
+    "path": "/society/outbound/",
+    "title": "日本人はどれだけ海外へ出てきたか — 出入国管理統計",
+    "legacyHost": "japan-data-outbound.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-outbound.git",
+    "commit": "e9597f14bba2be81664e086cbd50dad1c2b1ca54"
+  },
+  {
+    "directory": "apps/society/overseas",
+    "path": "/society/overseas/",
+    "title": "日本人は海外のどこに住んできたか — 海外在留邦人数調査統計",
+    "legacyHost": "japan-data-overseas.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-overseas.git",
+    "commit": "b218162e03b0cb27e9a1bbcf20f5ef2b55780d28"
+  },
+  {
+    "directory": "apps/society/prisons",
+    "path": "/society/prisons/",
+    "title": "日本はどれだけ人を刑務所に入れてきたか",
+    "legacyHost": "japan-data-prisons.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-prisons.git",
+    "commit": "0d020ffd82627c76392d4b6dac1ae23961aab1a6"
+  },
+  {
+    "directory": "apps/society/prosecution",
+    "path": "/society/prosecution/",
+    "title": "日本では捕まえた人をどれだけ起訴してきたか",
+    "legacyHost": "japan-data-prosecution.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-prosecution.git",
+    "commit": "a8b68e4d94ea6d417a51b723587bd34ca4fc27c5"
+  },
+  {
+    "directory": "apps/society/registry",
+    "path": "/society/registry/",
+    "title": "日本の土地と建物はどう名義が動いてきたか",
+    "legacyHost": "japan-data-registry.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-registry.git",
+    "commit": "4c904a7ed8dade3a3188581eec0233fa0c549446"
+  },
+  {
+    "directory": "apps/society/schools",
+    "path": "/society/schools/",
+    "title": "日本人はどんな学校に通ってきたか",
+    "legacyHost": "japan-data-schools.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-schools.git",
+    "commit": "2eb7694d7959a08e13a70d3ca92d7ece90030e96"
+  },
+  {
+    "directory": "apps/society/spending",
+    "path": "/society/spending/",
+    "title": "日本人は何にお金を使ってきたか",
+    "legacyHost": "japan-data-spending.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-spending.git",
+    "commit": "70bdaed17af0f0d14f9f83f5cb75aa06a2e23e7a"
+  },
+  {
+    "directory": "apps/society/timeuse",
+    "path": "/society/timeuse/",
+    "title": "日本人は1日をどう使ってきたか — 社会生活基本調査・生活時間",
+    "legacyHost": "japan-data-timeuse.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-timeuse.git",
+    "commit": "568b07fd359bb462db0f15064f87be067c4ff2ae"
+  },
+  {
+    "directory": "apps/society/traffic-accidents",
+    "path": "/society/traffic-accidents/",
+    "title": "日本人は交通事故でどれだけ傷ついてきたか",
+    "legacyHost": "japan-data-traffic-accidents.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-traffic-accidents.git",
+    "commit": "e49350bb99fef36c11381b2e84df140434c91ff0"
+  },
+  {
+    "directory": "apps/society/waste",
+    "path": "/society/waste/",
+    "title": "日本はどれだけごみを出してきたか",
+    "legacyHost": "japan-data-waste.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-waste.git",
+    "commit": "a83a3905467a9ba99c1e55593f0a1cb64d5b8895"
+  },
+  {
+    "directory": "apps/society/work-category",
+    "path": "/society/work-category/",
+    "title": "業種で給与はどれだけ違うか — 民間給与実態統計調査 2014–2024",
+    "legacyHost": "",
+    "source": "https://github.com/visualizing-jp/japan-data-salary.git",
+    "commit": "71d3a8ce8ef233c998c3d8d808b430595118292a"
+  },
+  {
+    "directory": "apps/society/work-people",
+    "path": "/society/work-people/",
+    "title": "日本人はどんな仕事をしてきたか — 職種別就業者",
+    "legacyHost": "",
+    "source": "https://github.com/visualizing-jp/japan-data-occupation.git",
+    "commit": "e1ebef7190cbfd9685165e87ede52858ead628a0"
+  },
+  {
+    "directory": "apps/society/working-age",
+    "path": "/society/working-age/",
+    "title": "日本人は何歳まで働くようになったか",
+    "legacyHost": "japan-data-working-age.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-data-working-age.git",
+    "commit": "db284f90812e0dc950595cbacdf5439c8643aa04"
+  },
+  {
+    "directory": "apps/society/payroll",
+    "path": "/society/payroll/",
+    "title": "事業所は人をどう雇い、いくら払い、何時間働かせてきたか",
+    "legacyHost": "japan-payroll.visualizing.jp",
+    "source": "https://github.com/visualizing-jp/japan-payroll.git",
+    "commit": "a01a9905cea3e0a7d6ada4fc9afc2c63701be7ae"
+  }
+]
