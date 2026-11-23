@@ -3,6 +3,8 @@
 政治・社会・経済の可視化を `https://data-of-japan.org/` にまとめる静的サイト。
 統合先: https://github.com/dataofjapan/data-of-japan
 
+新規コンテンツの命名、配置、計測には[コンテンツ運用ガイド](docs/content-guide.md)を参照してください。
+
 ## 開発と検証
 
 Node.js 22.18 以上、npm を使用します。
@@ -59,7 +61,7 @@ GA4では統合サイト専用のプロパティとウェブストリームを�
 
 - `page_view`: 初回表示およびページのパス変更。フィルター操作では増えません。
 - `view_change`: `view` パラメータが変わったとき。`view_name` にビュー名を送ります。
-- `content_group`: `politics` / `society` / `home`。コンテンツグループ別に比較できます。
+- `content_group`: トップは `home`、その他は公開パスの先頭階層（現在は `politics`、`society`、`foreigners`、`industry`）。コンテンツグループ別に比較できます。
 - URLは `view` とUTMパラメータだけを残し、その他のクエリとフラグメントを除外します。
 - Google Signalsと広告パーソナライズ用のシグナルを無効にしています。
 
