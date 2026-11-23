@@ -12,6 +12,16 @@ const measurementId = process.env.GA4_MEASUREMENT_ID || '';
 if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) throw Error('Invalid GA4_MEASUREMENT_ID');
 const environment = process.env.VERCEL_ENV || 'production';
 const analytics = `<script defer src="/analytics.js" data-measurement-id="${measurementId}" data-environment="${escape(environment)}"></script>`;
+const portfolioAnalytics = `<script>
+  if (location.hostname === 'data-of-japan.org' && location.pathname === '/') {
+    window.portfolioDataLayer = window.portfolioDataLayer || [];
+    window.portfolioDataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+    const tag = document.createElement('script');
+    tag.async = true;
+    tag.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-55W4KMR6&l=portfolioDataLayer';
+    document.head.appendChild(tag);
+  }
+</script>`;
 const dist = new URL('dist/', root);
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
@@ -39,7 +49,7 @@ function card(item) {
   return `<li><a class="portal-card" href="${escape(content.path)}">${artwork}<h2>${escape(content.title)}</h2>${description}${source}</a></li>`;
 }
 function page(path, title, description, items) {
-  return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} — Data of Japan</title><meta name="description" content="${escape(description)}"><link rel="canonical" href="https://data-of-japan.org${path}">${analytics}<style>${style}body{margin:0;background:#faf8f3;color:#242b35;font-family:system-ui}main{max-width:1000px;margin:auto;padding:64px 24px}h1{font-family:serif;font-size:clamp(32px,6vw,60px)}p{line-height:1.9}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px}li a{display:block;padding:24px;border:1px solid #ccc5b8;color:inherit;text-decoration:none;line-height:1.8}li a:hover,li a:focus-visible{background:#eee9dd}.portal-card{height:100%;box-sizing:border-box}.card-art{aspect-ratio:8/5;background:#ededea;display:flex;align-items:center;justify-content:center;margin-bottom:20px}.card-art svg,.card-art svg *{vector-effect:non-scaling-stroke}.portal-card h2{font-family:serif;font-size:20px;line-height:1.7;margin:0}.card-description{font-size:14px;color:#6f6a61;margin:12px 0 0}.card-source{font-size:12px;color:#6f6a61;margin:12px 0 0}</style></head><body>${nav}<main><p>DATA OF JAPAN</p><h1>${escape(title)}</h1><p>${escape(description)}</p><ul>${items.map(card).join('')}</ul></main></body></html>`;
+  return `<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${escape(title)} — Data of Japan</title><meta name="description" content="${escape(description)}"><link rel="canonical" href="https://data-of-japan.org${path}">${analytics}${path === '/' ? portfolioAnalytics : ''}<style>${style}body{margin:0;background:#faf8f3;color:#242b35;font-family:system-ui}main{max-width:1000px;margin:auto;padding:64px 24px}h1{font-family:serif;font-size:clamp(32px,6vw,60px)}p{line-height:1.9}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px}li a{display:block;padding:24px;border:1px solid #ccc5b8;color:inherit;text-decoration:none;line-height:1.8}li a:hover,li a:focus-visible{background:#eee9dd}.portal-card{height:100%;box-sizing:border-box}.card-art{aspect-ratio:8/5;background:#ededea;display:flex;align-items:center;justify-content:center;margin-bottom:20px}.card-art svg,.card-art svg *{vector-effect:non-scaling-stroke}.portal-card h2{font-family:serif;font-size:20px;line-height:1.7;margin:0}.card-description{font-size:14px;color:#6f6a61;margin:12px 0 0}.card-source{font-size:12px;color:#6f6a61;margin:12px 0 0}</style></head><body>${nav}<main><p>DATA OF JAPAN</p><h1>${escape(title)}</h1><p>${escape(description)}</p><ul>${items.map(card).join('')}</ul></main></body></html>`;
 }
 const portals = [
  {path:'/',title:'データで見る日本',description:'政治、暮らし、社会・経済の変化を、データから読み解く。',items:[{path:'/politics/',title:'政治 — 選挙から見る日本',icon:'politics',description:'衆議院・参議院・都道府県知事の選挙から、日本の政治の変化をたどります。'},{path:'/society/',title:'社会・経済 — 暮らしの変化をたどる',icon:'society',description:'人口、暮らし、教育、雇用、司法などの公的統計を図から読み解きます。'},{path:'/foreigners/',title:'外国人 — 訪れる・住む・働く',icon:'foreigners',description:'訪日・在留資格・就労・消費・宿泊・検挙の公的統計をたどります。'},{path:'/industry/',title:'産業 — エネルギーから見る日本',icon:'industry',description:'全国と都道府県のエネルギー供給・消費の変化をたどります。'}]},
