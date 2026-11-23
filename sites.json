@@ -2,10 +2,13 @@
   {
     "directory": "portal/elections",
     "path": "/politics/elections/",
-    "title": "日本人は、どう政治を選んできたか — 国政選挙",
+    "title": "日本人は、どう政治を選んできたか",
     "legacyHost": "japan-election.visualizing.jp",
     "source": "https://github.com/visualizing-jp/japan-election.git",
-    "commit": "11558cde82567b6a4fbad02c62fb07268e4705ec"
+    "commit": "11558cde82567b6a4fbad02c62fb07268e4705ec",
+    "shortName": "選挙",
+    "section": "政治",
+    "theme": "選挙"
   },
   {
     "directory": "apps/politics/sangiin-candidates",
@@ -13,7 +16,10 @@
     "title": "参議院選挙で、誰が立候補し、誰が当選したか",
     "legacyHost": "election-sangiin-candidates.visualizing.jp",
     "source": "https://github.com/visualizing-jp/sangiin-candidates.git",
-    "commit": "cb785f89e67d4e7319b135f7d2becc0052b41baa"
+    "commit": "cb785f89e67d4e7319b135f7d2becc0052b41baa",
+    "shortName": "参議院選挙の候補者と当選者",
+    "section": "政治",
+    "theme": "参議院選挙"
   },
   {
     "directory": "apps/politics/sangiin-seats",
@@ -21,7 +27,10 @@
     "title": "参議院選挙で、得た票はどれだけ議席になったか",
     "legacyHost": "election-sangiin-seats.visualizing.jp",
     "source": "https://github.com/visualizing-jp/sangiin-seats.git",
-    "commit": "6a391eb3c870255ea153956486837bdeab747b86"
+    "commit": "6a391eb3c870255ea153956486837bdeab747b86",
+    "shortName": "参議院選挙の得票率と議席率",
+    "section": "政治",
+    "theme": "参議院選挙"
   },
   {
     "directory": "apps/politics/sangiin-votes",
@@ -29,7 +38,10 @@
     "title": "参議院選挙で、どの党がどれだけ票を得てきたか",
     "legacyHost": "election-sangiin-timeseries.visualizing.jp",
     "source": "https://github.com/visualizing-jp/election-sangiin-timeseries.git",
-    "commit": "e190d1c6f6b990f79d07207631e584aa376ededb"
+    "commit": "e190d1c6f6b990f79d07207631e584aa376ededb",
+    "shortName": "参議院選挙の政党別得票",
+    "section": "政治",
+    "theme": "参議院選挙"
   },
   {
     "directory": "apps/politics/sangiin-turnout",
@@ -37,7 +49,10 @@
     "title": "参議院選挙で、どれだけの人が投票したか",
     "legacyHost": "election-sangiin-turnout.visualizing.jp",
     "source": "https://github.com/visualizing-jp/sangiin-turnout.git",
-    "commit": "1bf5c786792f3c9a2d4dc79abe2751cdb3cbe867"
+    "commit": "1bf5c786792f3c9a2d4dc79abe2751cdb3cbe867",
+    "shortName": "参議院選挙の投票率",
+    "section": "政治",
+    "theme": "参議院選挙"
   },
   {
     "directory": "apps/politics/shugiin-candidates",
@@ -45,7 +60,10 @@
     "title": "衆議院選挙で、誰が立候補し、誰が当選したか",
     "legacyHost": "election-shugiin-candidates.visualizing.jp",
     "source": "https://github.com/visualizing-jp/shugiin-candidates.git",
-    "commit": "c12a3e2def1c568790e99dcbea4a90c82d5fafbc"
+    "commit": "c12a3e2def1c568790e99dcbea4a90c82d5fafbc",
+    "shortName": "衆議院選挙の候補者と当選者",
+    "section": "政治",
+    "theme": "衆議院選挙"
   },
   {
     "directory": "apps/politics/shugiin-seats",
@@ -53,7 +71,10 @@
     "title": "衆議院選挙で、得た票はどれだけ議席になったか",
     "legacyHost": "election-shugiin-seats.visualizing.jp",
     "source": "https://github.com/visualizing-jp/shugiin-seats.git",
-    "commit": "1833b34236fe6affe5d48725fa7e59f879c3fa69"
+    "commit": "1833b34236fe6affe5d48725fa7e59f879c3fa69",
+    "shortName": "衆議院選挙の得票率と議席率",
+    "section": "政治",
+    "theme": "衆議院選挙"
   },
   {
     "directory": "apps/politics/shugiin-votes",
@@ -61,7 +82,10 @@
     "title": "衆議院選挙で、どの党がどれだけ票を得てきたか",
     "legacyHost": "election-shugiin-timeseries.visualizing.jp",
     "source": "https://github.com/visualizing-jp/election-shugiin-timeseries.git",
-    "commit": "8d7d9164b45470bc382e002d68c5d2a9397ac58f"
+    "commit": "8d7d9164b45470bc382e002d68c5d2a9397ac58f",
+    "shortName": "衆議院選挙の政党別得票",
+    "section": "政治",
+    "theme": "衆議院選挙"
   },
   {
     "directory": "apps/politics/shugiin-turnout",
@@ -69,7 +93,10 @@
     "title": "衆議院選挙で、どれだけの人が投票したか",
     "legacyHost": "election-shugiin-turnout.visualizing.jp",
     "source": "https://github.com/visualizing-jp/shugiin-turnout.git",
-    "commit": "37db0e00f3333baffc56403db285e982134e54c8"
+    "commit": "37db0e00f3333baffc56403db285e982134e54c8",
+    "shortName": "衆議院選挙の投票率",
+    "section": "政治",
+    "theme": "衆議院選挙"
   },
   {
     "directory": "portal/governors",
@@ -77,7 +104,10 @@
     "title": "都道府県知事選挙の記録",
     "legacyHost": "governor-election.visualizing.jp",
     "source": "https://github.com/visualizing-jp/governor-election.git",
-    "commit": "9f2d08f1a7b0327f612e3c98b23e3f347aa0d22a"
+    "commit": "9f2d08f1a7b0327f612e3c98b23e3f347aa0d22a",
+    "shortName": "都道府県知事選挙",
+    "section": "政治",
+    "theme": "都道府県知事選挙"
   },
   {
     "directory": "apps/politics/governor-okinawa",
@@ -85,7 +115,10 @@
     "title": "沖縄県知事選挙で、誰がどれだけ票を得てきたか",
     "legacyHost": "governor-election-okinawa.visualizing.jp",
     "source": "https://github.com/visualizing-jp/governor-election-okinawa.git",
-    "commit": "c16aca646b80628cda53dcdcb3f7461d6318e79a"
+    "commit": "c16aca646b80628cda53dcdcb3f7461d6318e79a",
+    "shortName": "沖縄県知事選挙の得票",
+    "section": "政治",
+    "theme": "都道府県知事選挙"
   },
   {
     "directory": "portal/society",

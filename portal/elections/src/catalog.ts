@@ -1,3 +1,5 @@
+import sites from "../../../sites.json" with { type: "json" };
+
 export type CategoryId = "shugiin" | "sangiin" | "governors";
 
 export type ProjectStatus = "published" | "pending";
@@ -19,7 +21,7 @@ export const CATEGORIES: { id: CategoryId; label: string }[] = [
   { id: "governors", label: "都道府県知事" },
 ];
 
-export const CATALOG: CatalogEntry[] = [
+const entries: CatalogEntry[] = [
   // —— 衆議院 ——
   {
     slug: "turnout",
@@ -114,3 +116,8 @@ export const CATALOG: CatalogEntry[] = [
     url: "/politics/elections/governors/",
   },
 ];
+
+export const CATALOG = entries.map(entry => ({
+  ...entry,
+  title: sites.find(site => site.path === entry.url)?.shortName ?? entry.title,
+}));
